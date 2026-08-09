@@ -9,10 +9,17 @@ dispaly_invoice("Ayesha",34.789,"01/08")
 print("test")
 """
 
-def full_name(first,last):
+"""ddef full_name(first,last):
   first_name=first.capitalize()
   last_name=last.capitalize()
   return first_name+" "+last_name
 name=full_name("aisha","khan")
 print(name)
-print('test')
+"""
+
+def net_price(price,discount=0,tax=0.05):
+  return price*(1-discount)*(1+tax)
+
+print(net_price(500))
+
+
