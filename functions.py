@@ -17,9 +17,23 @@ name=full_name("aisha","khan")
 print(name)
 """
 
+"""
 def net_price(price,discount=0,tax=0.05):
   return price*(1-discount)*(1+tax)
 
 print(net_price(500))
+"""
+
+import time
+
+def count(start,end):
+    for x in range(start,end+1):
+        print(x)
+        time.sleep(0.2)
+    print('DONE!')
+
+count(0,10)    
+
+  
 
 
