@@ -32,7 +32,7 @@ def count(start,end):
         time.sleep(0.2)
     print('DONE!')
 
-count(0,10)    
+count(0,5)    
 
   
 
