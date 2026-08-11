@@ -46,7 +46,7 @@ phone_num=get_phone(country=+91,area=878,first=701,last=2844)
 print(phone_num)
 
 """
-
+"""
 def add(*args):
   total=0
   for arg in args:
@@ -54,3 +54,21 @@ def add(*args):
   return total
 
 print(add(1,2,3))  
+
+"""
+"""
+def display_name(*args):
+  for arg in args:
+    print(arg, end=" ")
+
+display_name("ayesha","khan","is","good","girl")
+
+"""
+
+def print_address(**kwargs):
+  for key,value in kwargs.items():
+    print(f"{key}:{value}")
+
+print_address(street="chowmahalla",
+              city="hyderabad",
+              state="telangana",)    
