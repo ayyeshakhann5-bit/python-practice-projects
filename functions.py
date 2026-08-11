@@ -37,10 +37,20 @@ count(0,5)
 
 """
 
+"""
+
 def get_phone(country,area,first,last):
   return f"{country}-{area}-{first}-{last}"
 
-phone_num=get_phone("+91","878","701","2844")
+phone_num=get_phone(country=+91,area=878,first=701,last=2844)
 print(phone_num)
 
+"""
 
+def add(*args):
+  total=0
+  for arg in args:
+    total+=arg
+  return total
+
+print(add(1,2,3))  
