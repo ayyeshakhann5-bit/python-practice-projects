@@ -24,6 +24,7 @@ def net_price(price,discount=0,tax=0.05):
 print(net_price(500))
 """
 
+"""
 import time
 
 def count(start,end):
@@ -34,6 +35,12 @@ def count(start,end):
 
 count(0,5)    
 
-  
+"""
+
+def get_phone(country,area,first,last):
+  return f"{country}-{area}-{first}-{last}"
+
+phone_num=get_phone("+91","878","701","2844")
+print(phone_num)
 
 
