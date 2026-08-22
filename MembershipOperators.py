@@ -12,6 +12,7 @@ else:
 
   """
 
+"""
 students={"Aisha","khan"}
 
 student=input("Enter name of student:")
@@ -21,4 +22,18 @@ if student not in students:
 
 else:
   print(f"{student} is a student")  
+
+"""
+
+
+grades={"Ayesha":1,
+        "Khan":2}
+
+student=input("Enter name of student:")
+
+if student in grades:
+  print(f"{student}'s grade is {grades[student]}")
+
+else:
+  print(f"{student} was not found") 
 
