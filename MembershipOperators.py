@@ -25,7 +25,7 @@ else:
 
 """
 
-
+"""
 grades={"Ayesha":1,
         "Khan":2}
 
@@ -36,4 +36,13 @@ if student in grades:
 
 else:
   print(f"{student} was not found") 
+
+"""  
+
+email="ayesha@gmailcom"
+
+if '@' in email and '.' in email:
+  print("Valid email")
+else:
+  print("Invalid email")  
 
