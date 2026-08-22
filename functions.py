@@ -65,6 +65,8 @@ display_name("ayesha","khan","is","good","girl")
 
 """
 
+"""
+
 def print_address(**kwargs):
   for key,value in kwargs.items():
     print(f"{key}:{value}")
@@ -72,3 +74,24 @@ def print_address(**kwargs):
 print_address(street="chowmahalla",
               city="hyderabad",
               state="telangana",)    
+
+"""
+
+def shipping_label(*args,**kwargs):
+  for arg in args:
+     print(arg,end=" ")
+  print()   
+
+  if "apt" in kwargs:
+     print(f"{kwargs.get('street')} {kwargs.get('Road')} {kwargs.get('apt')} ")
+  else:
+     print(f"{kwargs.get('street')} {kwargs.get('Road')}")
+
+
+
+shipping_label("Aisha","khan",
+               street="123",
+               Road="Pimpiri",
+              )  
+
+
