@@ -23,4 +23,4 @@ def is_weekend(day):
       case _:
         return False
       
-print(is_weekend("Saturday"))      
+print(is_weekend("saturday"))      
