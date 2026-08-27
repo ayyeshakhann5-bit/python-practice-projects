@@ -5,4 +5,12 @@ def func1():
     func2()
     
 func1()
+
+
+from math import e
+
+def func3():
+  print(e)
+  
+func3()  
   
