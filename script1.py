@@ -1,13 +1,15 @@
 def favorite_food(food):
   print(f"Your favorite food is {food}")
   
-print("This is script1")
-favorite_food("Pizza")
-print("Good bye")
+def main():  
+  print("This is script1")
+  favorite_food("Pizza")
+  print("Good bye")
   
   
-"""
+
 if __name__=='__main__':
   main() 
-"""
-  
+
+
+ 
