@@ -20,6 +20,8 @@ employee3=Employee("Bob","Designer")
 print(Employee.is_valid_position("Manager"))    
 print(employee1.get_info())
 
+print(Employee.is_valid_position("Intern"))
+
 
     
     
