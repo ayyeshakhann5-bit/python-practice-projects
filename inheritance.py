@@ -8,7 +8,7 @@ class Animal:
     print(f"{self.name} is eating")
     
   def sleep(self):
-    print(f"{self.name} is sleeping")
+    print(f"{self.name} is sleeping..")
     
     
 class Dog(Animal):
