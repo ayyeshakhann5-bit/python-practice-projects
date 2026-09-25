@@ -26,7 +26,7 @@ class Mouse(Animal):
 
 dog=Dog("Scooby")
 
-cat=Cat("Meow...")
+cat=Cat("Meow.....")
 
 mouse=Mouse("Mickey")
 
