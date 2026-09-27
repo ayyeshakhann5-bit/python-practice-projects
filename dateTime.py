@@ -14,4 +14,4 @@ current_datetime=datetime.datetime.now()
 if(current_datetime>target_datetime):
   print("Target date already passed")
 else:
-  print("Target date not already passed")  
+  print("Target date not already passed...")  
