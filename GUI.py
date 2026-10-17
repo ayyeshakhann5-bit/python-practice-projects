@@ -2,13 +2,40 @@
 
 import sys
 
-from PyQt5.QtWidgets import QApplication,QMainWindow
+
+from PyQt5.QtWidgets import QApplication,QMainWindow,QLabel
+from PyQt5.QtGui import QIcon
+from PyQt5.QtGui import QFont
+from PyQt5.QtCore import Qt
+
 
 class MainWindow(QMainWindow):
   def __init__(self):
     super().__init__()
     self.setWindowTitle("My first window GUI")
-    self.setGeometry(700,0,500,500)
+    self.setGeometry(700,3000,500,500)
+    self.setWindowIcon(QIcon("ayeshaLogo.png"))
+    label=QLabel("Hello Ayesha",self)
+    label.setFont(QFont("Arial",40))
+    label.setGeometry(0,0,500,100)
+    label.setStyleSheet("color:red;"
+                        "background-color:blue;"
+                        "font-weight:bold;"
+                        "font-style:italic;"
+                        "text-decoration:underline;")
+    #label.setAlignment(Qt.AlignTop)
+    #label.setAlignment(Qt.AlignBottom)
+    #label.setAlignment(Qt.AlignCenter)
+    #label.setAlignment(Qt.AlignRight)
+    #label.setAlignment(Qt.AlignHCenter)
+    #label.setAlignment(Qt.AlignLeft)
+    
+    #label.setAlignment(Qt.AlignTop | Qt.AlignHCenter)
+    #label.setAlignment(Qt.AlignBottom | Qt.AlignHCenter)
+    #abel.setAlignment(Qt.AlignHCenter | Qt.AlignVCenter)
+    label.setAlignment(Qt.AlignCenter)
+    
+    
     
 def main():
       app=QApplication(sys.argv)
